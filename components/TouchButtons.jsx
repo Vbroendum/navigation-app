@@ -12,7 +12,7 @@ const TouchButtons = () => {
     };
 
     const navigateToAward = () => {
-        navigation.navigate('Award'); // Make sure this matches the name in your stack
+        navigation.navigate('Award'); 
     };
 
     return (
