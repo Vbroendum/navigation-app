@@ -1,10 +1,8 @@
-import { useNavigation, useTheme } from "@react-navigation/native";
-import { View, Text, Button, TouchableOpacity, StyleSheet, Appearance } from "react-native";
+import { View, StyleSheet, } from "react-native";
 import RingProgress from "../components/RingProgress";
 import TouchButtons from "../components/TouchButtons";
 import Greetings from "../components/Greetings";
-import CalendarScreen from "../screens/CalendarScreen";
-import AwardScreen from "../screens/AwardScreen";
+import ShareButton from "../components/ShareButton";
 
 
 
@@ -17,6 +15,7 @@ export default function HomeScreen() {
           <RingProgress progress={0.2}/>
           <View style={styles.buttons}>
             <TouchButtons />
+            <ShareButton />
           </View>
         </View>
       );

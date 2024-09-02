@@ -1,14 +1,14 @@
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import Icon from 'react-native-vector-icons/Ionicons';
 import { useNavigation } from '@react-navigation/native';
-import CalendarScreen from "../screens/CalendarScreen";
+
 
 const TouchButtons = () => {
-    const navigation = useNavigation(); // Step 1: Get the navigation object
+    const navigation = useNavigation(); 
 
-    // Step 2: Define the navigation functions
+
     const navigateToCalendar = () => {
-        navigation.navigate('Calendar'); // Make sure this matches the name in your stack
+        navigation.navigate('Calendar'); 
     };
 
     const navigateToAward = () => {

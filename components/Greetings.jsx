@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 import DatoDisplay from "./DatoDisplay";
 
-const name = "Hans";
+const name = "Kasper";
 
 const Greetings = () => {
     return (
