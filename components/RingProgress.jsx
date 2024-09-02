@@ -1,7 +1,6 @@
 import {View, StyleSheet } from 'react-native'
-import SVG, { Circle } from 'react-native-svg'
-import Text from 'react-svg-text';
-import { render } from 'react-dom';
+import SVG, { Circle, Text, Line } from 'react-native-svg'
+
 
 (parameters) = {
     radius: Number,
@@ -42,6 +41,12 @@ const RingProgress = ({ radius = 150 , strokeWidth = 35, progress }) => {
                     originX={radius}
                     originY={radius}
                 />
+                <Text
+                x={radius}
+                y={radius - 20}
+                fontSize={24}
+                 
+                ></Text>
             </SVG>
         </View>
     );
